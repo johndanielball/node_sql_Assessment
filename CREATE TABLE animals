@@ -1,0 +1,6 @@
+CREATE TABLE animals (
+ID SERIAL,
+animal_type varchar(80) NOT NULL,
+animal_quantity INTEGER NOT NULL,
+CONSTRAINT animals_id PRIMARY KEY(ID)
+)
